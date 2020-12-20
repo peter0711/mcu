@@ -35,20 +35,7 @@ from linebot.models import *
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'Ub8e3cf75739079f25a50f82b2cbd4c63'
 # 必須放上自己的Channel Access Token
-LINE_CHANNEL_ACCESS_TOKEN ='{
-  "p": "7xOtwzxZcSMg0cDDXlIytC87JQjpCkTH81iYdJKoFz6hvIAKBdo_yVl4PLMym-G-alJtcjFx9Yvzh7dzh-07Ds5cn4oCWAYoL5bsvOoVye12PUbrmognx-Xi5T_ffjtxMvLTvatdSt-egandV8No9enFn7OZqZSzpMe78TAlTwk",
-  "kty": "RSA",
-  "q": "wee4dUBlVjJvVzejU8DK8pXHqPzZ0Kz7iRt1l7V6evWERev8CXoHdxuTU7NgnXKmG_YB5qxA_B0zuVoSo56cA59JzaU_tVhTeZ7i4RFlt-xG3QA1gpSKcQPvpWgNOVk1HhKQYntzlYzHoOmcl80r1wywfUTXHrbyggO3x9c1SKc",
-  "d": "jCJ1fpFoDJCgL0ZIOqjEsl6R-RCfQRiAJ4QZL9IR7UXgwEseSjRMzilzHJmhkIXHvidsuO5fvoe-e4U6KRU0BNLbGxuFMTXccpG3aXjXl1Nt8WjUz8P7Dx7UkZVJkjS-KzBV3ZHgu7SByyToHBOuuiBCtpUfhQpyVEh9wwxKli_fDagPVJJbhPYTWLR_8u20qbBkcXvXGh8y9XU6scSaLtzRlos9fOif0ac3vmeBO1Cxe-7jxeT2mPby5o17LyyBIyzBMlqDpt_Y64hdonTYfxkFK9Ugf_J_gweAZw6J9EZQsuVP4JWnI7XEcJFm0rrqFFBVaAlRduLTi0LnQUAJQQ",
-  "e": "AQAB",
-  "use": "sig",
-  "kid": "74d89b23-2d34-4faa-afca-f1f3a43ff909",
-  "qi": "VYIMAC_dQNBTh9tADv-jfMPO0pu6WxdL6z8Sq9hTjx8z9K-TnsqfaxDTjB70OhZL5zdAMtU2tdhs1GY1iRr9QL7lzqpNfUlxzoz-QukD1fkRf1OOojdY8iUCfHWOyyp_R6TTeNZlyICSFdt1nu3BVfDf6G5SYuJe_fI9LWxd-u8",
-  "dp": "zg4y9JO-LyHstnwiptfHtb8Dhe8BFAWmJFnWxJpmX-pucc4VVWf_FCaV2BNG6k2N1YuHoyV0qALgebemzp-sCB3afPLxBDcCScoV7tj-wJR3FWdbx0vUpZjAj4AWu3C2JwhdcRsShGbp8a2bBXp5q4G5_-RG638rujkgBkfN0Ck",
-  "alg": "RS256",
-  "dq": "sfv8uMOPQPuyb6BGbw48O0d4qYjOdlkR2dw2qDaQYmUSMQxXoGs-hvns1ZuFR4CBMJEzVYUvcTtsyun-yelA06JWoEjanZ6hoLVTE7xgXd6nfRxAAchO-0XdpzpHSSi1NRFdLsiaY9-BLhbBAiX148NmDNYvj6XmG6lF_E1yP2k",
-  "n": "tRY9BaCxL0-D8mI0s_IvqpGZGwIfJJrUcslOdhe2gH5iha7drqTVTwnW4a1UTsgNbTVMV-051Mn5bytg4y82OQNpclV9WT0ldMt-WbBpuGDH_qlFcHzA4PnmmhsnBsFj1-8LhLaY_oMbW1trpHlHzs9YIJZU5LESGtPkre86ycQiuZKVwIjUQMEf26s03iO1i9XzkRmJoB-VB2ilKXYpOos_rYbrDAaf3txTEaswTGL5UEAuBmMm9EVrLIqZxYDwdzW-PxYRAqwy43qo63vOB8gRUUGu6m-hTs_p-EJAL6LZPBkrwDGHaKXmCRPEVjfdvMnK9QBthLW7IJv50m4W3w"
-}'
+LINE_CHANNEL_ACCESS_TOKEN ='74d89b23-2d34-4faa-afca-f1f3a43ff909'
 # 必須放上自己的Channel Secret
 LINE_CHANNEL_SECRET='8aa414aee6a24cfa9763474df4b5cb3e'
 
