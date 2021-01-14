@@ -64,7 +64,7 @@ def callback(request):
                    elif mtext == '@確認樣板':
                         func.sendConfirm(event)
     
-                   elif mtext == '交通一點通':
+                   elif mtext == '@交通一點通':
                         func.sendCarousel3(event)
     
                    elif mtext == '@圖片轉盤':
