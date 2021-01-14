@@ -152,7 +152,7 @@ def sendConfirm(event):  #確認樣板
 def sendCarousel3(event):  #轉盤樣板
     try:
         message = TemplateSendMessage(
-            alt_text='交通一點通',
+            alt_text='轉盤樣板',
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
