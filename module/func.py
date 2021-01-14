@@ -152,25 +152,21 @@ def sendConfirm(event):  #確認樣板
 def sendCarousel3(event):  #轉盤樣板
     try:
         message = TemplateSendMessage(
-            alt_text='轉盤樣板',
+            alt_text='交通一點通',
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://i.imgur.com/4QfKuz1.png',
-                        title='這是樣板一',
-                        text='第一個轉盤樣板',
+                        thumbnail_image_url='https://img.onl/WsoLrl',
+                        title='交通一點通',
+                        text='請點選服務',
                         actions=[
-                            MessageTemplateAction(
-                                label='文字訊息一',
-                                text='賣披薩'
+                            URITemplateAction(
+                                label='了解訂票資訊',
+                                uri='https://liff.line.me/1655387687-V6n5eP2y'
                             ),
                             URITemplateAction(
-                                label='連結文淵閣網頁',
-                                uri='http://www.e-happy.com.tw'
-                            ),
-                            PostbackTemplateAction(
-                                label='回傳訊息一',
-                                data='action=sell&item=披薩'
+                                label='交通查詢系統',
+                                data='https://liff.line.me/1655387687-qvYLKnGM'
                             ),
                         ]
                     ),
