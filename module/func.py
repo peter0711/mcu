@@ -156,7 +156,7 @@ def sendCarousel3(event):  #轉盤樣板
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                         thumbnail_image_url='https://i.imgur.com/bQVbKwb.jpg',
+                        thumbnail_image_url='https://i.imgur.com/bQVbKwb.jpg',
                         title='7-11',
                         text='點選服務',
                         actions=[
