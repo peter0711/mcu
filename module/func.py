@@ -166,7 +166,7 @@ def sendCarousel3(event):  #轉盤樣板
                             ),
                             URITemplateAction(
                                 label='交通查詢系統',
-                                data='https://liff.line.me/1655387687-qvYLKnGM'
+                                uri='https://liff.line.me/1655387687-qvYLKnGM'
                             ),
                         ]
                     ),
