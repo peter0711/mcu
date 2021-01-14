@@ -142,5 +142,6 @@ def callback(request):
     else:
         return HttpResponseBadRequest()
 
-
+elif mtext[:6] == '123456' and len(mtext) > 6:  #推播訊息給所有顧客
+                        func.pushMessage(event, mtext)
 
