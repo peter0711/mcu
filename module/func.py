@@ -156,40 +156,40 @@ def sendCarousel3(event):  #轉盤樣板
             template=CarouselTemplate(
                 columns=[
                     CarouselColumn(
-                        thumbnail_image_url='https://i.imgur.com/qaAdBkR.png',
-                        title='這是樣板二',
-                        text='第二個轉盤樣板',
+                         thumbnail_image_url='https://i.imgur.com/bQVbKwb.jpg',
+                        title='7-11',
+                        text='點選服務',
                         actions=[
-                            MessageTemplateAction(
-                                label='文字訊息二',
-                                text='賣飲料'
+                            URITemplateAction(
+                                label='官方網站',
+                                uri='https://www.7-11.com.tw/'
                             ),
                             URITemplateAction(
-                                label='連結台大網頁',
-                                uri='http://www.ntu.edu.tw'
+                                label='商家查詢',
+                                uri='https://emap.pcsc.com.tw/'
                             ),
-                            PostbackTemplateAction(
-                                label='回傳訊息二',
-                                data='action=sell&item=飲料'
+                            URITemplateAction(
+                                label='股市查詢',
+                                uri='https://stock.pchome.com.tw/stock/sid2912.html'
                             ),
                         ]
                     ),
                     CarouselColumn(
-                        thumbnail_image_url='https://i.imgur.com/qaAdBkR.png',
-                        title='這是樣板二',
-                        text='第二個轉盤樣板',
+                        thumbnail_image_url='https://i.imgur.com/M3YngWB.jpg',
+                        title='全家 FamilyMart',
+                        text='點選服務',
                         actions=[
-                            MessageTemplateAction(
-                                label='文字訊息二',
-                                text='賣飲料'
+                            URITemplateAction(
+                                label='官方網站',
+                                uri='https://www.family.com.tw/Marketing/index.aspx'
                             ),
                             URITemplateAction(
-                                label='連結台大網頁',
-                                uri='http://www.ntu.edu.tw'
+                                label='商家查詢',
+                                uri='https://www.family.com.tw/marketing/inquiry.aspx'
                             ),
-                            PostbackTemplateAction(
-                                label='回傳訊息二',
-                                data='action=sell&item=飲料'
+                            URITemplateAction(
+                                label='股市查詢',
+                                uri='https://stock.pchome.com.tw/stock/sid5903.html'
                             ),
                         ]
                     )
