@@ -160,6 +160,10 @@ def sendCarousel3(event):  #轉盤樣板
                         title='交通一點通',
                         text='請點選服務',
                         actions=[
+			    MessageTemplateAction(
+                                label='文字訊息二',
+                                text='賣飲料'
+                            ),
                             URITemplateAction(
                                 label='了解訂票資訊',
                                 uri='https://liff.line.me/1655387687-V6n5eP2y'
